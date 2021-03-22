@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 100px;
+    color: #4F4D53;
+    font-weight: 900;
+}
+h2{
+    font-size: 64px;
+    color: #E8BE02;
+    font-weight: 900;
+}
+h3{
+    font-size: 20px;
+    color: #E8BE02;
+    font-weight: 900;
+}
+h4{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+p{
+    font-size: 20px;
+    color: #4F4D53;
+    font-weight: 400;
+}
+
+
+header{
+    height: 48px;
+    background-color: #4F4D53;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+nav ul{
+    margin: 0;
+    padding: 10px 0;
+}
+ul li{
+    list-style: none;
+}
+
+section.first-section{
+    background-image: url(./media/img_hero.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.first-section h1{
+    margin: 0;
+    padding: 150px 0;
+}
+
+.circle-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+}
+
+.last-sec{
+    text-align: center;
+    padding: 50px 0 100px;
+}
+
+
+footer{
+    height: 320px;
+    background-color: #4F4D53;
+    border-top: 12px solid #E8BE02;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+
+.footer h4{
+    margin:0;
+}
+.footer h4.join{
+    margin-top:20px;
+}
+/* Yellow band above footer: 12px #E8BE02 */
+ 
